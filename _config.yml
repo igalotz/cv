@@ -3,6 +3,7 @@ title: My Resume
 #url: 'http://webjeda.com'
 baseurl: '/cv' #change it according to your repository name
 exclude: ['README.md']
+include: - "_images"
 
 
 # Enable one of these styles by removing #. Style will be applied only after restarting the build or serve.
