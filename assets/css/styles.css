@@ -53,8 +53,8 @@ p {
   box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
 }
 .sidebar-wrapper {
-  background: #948d8e;
-
+  background-image: url('/assets/images/cam.png');
+  border: 2px solid #423537;
 
   position: absolute;
   left: 0;
@@ -64,12 +64,12 @@ p {
   color: #fff;
 }
 .sidebar-wrapper a {
-  color: #423537;
+  color: #fff;
   font-weight: 800;
 }
 .sidebar-wrapper .profile-container {
   padding: 30px;
-  background: #948d8e;
+  background-image: url('/assets/images/cam.png');
 
   text-align: center;
   color: #fff;
@@ -81,7 +81,7 @@ p {
   margin-bottom: 10px;
 }
 .sidebar-wrapper .tagline {
-  color:#820419;
+  color:#fff;
   font-size: 16px;
   font-weight: 400;
   margin-top: 0;
@@ -113,7 +113,7 @@ p {
   font-weight: 800;
   margin-top: 0;
   margin-bottom: 15px;
-  color: #820419;
+  color: #fff;
 }
 .sidebar-wrapper .degree {
   font-size: 18px;
@@ -128,18 +128,18 @@ p {
   margin-bottom: 0;
 }
 .sidebar-wrapper .education-container .meta {
-  color: #423537;
+  color: #fff;
   font-weight: 500;
   margin-bottom: 0px;
   margin-top: 0;
 }
 .sidebar-wrapper .education-container .time {
-  color: #423537;
+  color: #fff;
   font-weight: 500;
   margin-bottom: 0px;
 }
 .sidebar-wrapper .languages-container .lang-desc {
-  color: #423537;
+  color: #fff;
 }
 .sidebar-wrapper .languages-list {
   margin-bottom: 0;
@@ -163,7 +163,7 @@ p {
   background: #fff;
   padding: 60px;
   padding-left: 300px;
-
+  border: 2px solid #423537;
 }
 .main-wrapper .section-title {
   text-transform: uppercase;
