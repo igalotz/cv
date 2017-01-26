@@ -53,7 +53,7 @@ p {
   box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
 }
 .sidebar-wrapper {
-  background: url('../assets/images/cam.png');
+  background: url('../images/cam.png');
 
   border: 2px solid #423537;
 
@@ -70,7 +70,7 @@ p {
 }
 .sidebar-wrapper .profile-container {
   padding: 30px;
-  background-image: url('assets/images/cam.png');
+  background-image: url('../images/cam.png');
 
   text-align: center;
   color: #fff;
