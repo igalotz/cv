@@ -352,6 +352,15 @@ used for profile image
 
 
 }
+.flag {
+
+  max-width: 50px;
+  margin-bottom: 0px;
+  margin-top: 10px;
+
+
+
+}
 
 .telephon {
 
@@ -369,7 +378,6 @@ used for profile image
   right: 20px;
   top: 20px;
   color: #423537;
-  border: 2px solid #820419;
-  padding: 5px;
+
 
 }
