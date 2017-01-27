@@ -65,12 +65,13 @@ p {
   min-height: 800px;
   color: #fff;
 }
+
 .sidebar-wrapper a {
   color: #fff;
   font-weight: 800;
 }
 .sidebar-wrapper .profile-container {
-  padding: 30px;
+  padding: 20px;
 
 
   text-align: center;
@@ -90,7 +91,7 @@ p {
   margin-bottom: 0;
 }
 .sidebar-wrapper .profile {
-  margin-bottom: 15px;
+  margin-bottom: 5px;
 }
 .sidebar-wrapper .contact-list .fa {
   margin-right: 5px;
@@ -98,7 +99,7 @@ p {
   vertical-align: middle;
 }
 .sidebar-wrapper .contact-list li {
-  margin-bottom: 20px;
+  margin-bottom: 10px;
 }
 .sidebar-wrapper .contact-list li:last-child {
   margin-bottom: 0;
@@ -107,7 +108,7 @@ p {
   font-size: 25px;
 }
 .sidebar-wrapper .container-block {
-  padding: 30px;
+  padding: 20px;
 }
 .sidebar-wrapper .container-block-title {
 
@@ -117,10 +118,19 @@ p {
   margin-bottom: 15px;
   color: #fff;
 }
+
+.sidebar-wrapper .container-block-title-polish {
+
+  font-size: 20px;
+  font-weight: 800;
+  margin-top: 0;
+  margin-bottom: 20px;
+  color: #fff;
+}
 .sidebar-wrapper .degree {
   font-size: 22px;
   font-weight: 800;
-  margin-top: 10px;
+  margin-top: 25px;
   margin-bottom: 5px;
   color: #820419
 }
@@ -131,8 +141,15 @@ p {
   margin-bottom: 5px;
   color: #820419
 }
+.sidebar-wrapper .degree2-polish {
+  font-size: 17px;
+  font-weight: 800;
+  margin-top: 25px;
+  margin-bottom: 5px;
+  color: #820419
+}
 .sidebar-wrapper .education-container .item {
-  margin-bottom: 15px;
+  margin-bottom: 0px;
 }
 .sidebar-wrapper .education-container .item:last-child {
   margin-bottom: 0;
@@ -144,10 +161,23 @@ p {
   margin-top: 5px;
   font-size: 20px;
 }
+.sidebar-wrapper .education-container .meta-polish {
+  color: #fff;
+  font-weight: 500;
+  margin-bottom: 0px;
+  margin-top: 5px;
+  font-size: 15px;
+}
 .sidebar-wrapper .education-container .time {
   color: #fff;
   font-weight: 500;
   margin-bottom: 0px;
+}
+.sidebar-wrapper .education-container .time-polish {
+  color: #fff;
+  font-weight: 500;
+  margin-bottom: 0px;
+  font-size: 15px;
 }
 .sidebar-wrapper .languages-container .lang-desc {
   color: #fff;
@@ -162,7 +192,7 @@ p {
   margin-bottom: 0;
 }
 .sidebar-wrapper .interests-list {
-  margin-bottom: 0;
+  margin-bottom: 15px;
 }
 .sidebar-wrapper .interests-list li {
   margin-bottom: 10px;
@@ -331,5 +361,15 @@ used for profile image
   border: 1px solid #272222;
   float: center;
 
+
+}
+
+.languageversion {
+  position: absolute;
+  right: 20px;
+  top: 20px;
+  color: #423537;
+  border: 2px solid #820419;
+  padding: 5px;
 
 }
