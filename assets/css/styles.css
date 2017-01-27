@@ -8,8 +8,9 @@
 */
 /* styles.css */
 /* ======= Base ======= */
+/* ======= backgroundimage ======= url('../images/cam.png')*/
 body {
-  font-family: 'Lato', sans-serif;
+  font-family: 'Roboto Mono', sans-serif;
   color: #948d8e;
   background: #fff;
   font-size: 16px;
@@ -24,7 +25,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-weight: 700;
+  font-weight: 500;
 }
 a {
   color: #2d7788;
@@ -44,8 +45,8 @@ p {
   line-height: 1.5;
 }
 .wrapper {
-  background: #42A8C0;
-  max-width: 960px;
+  background: #252121;
+  max-width: 1000px;
   margin: 0 auto;
   position: relative;
   -webkit-box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
@@ -53,13 +54,13 @@ p {
   box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
 }
 .sidebar-wrapper {
-  background: url('../images/cam.png');
+  background: #272222;
 
-  border: 2px solid #423537;
+  border: 2px solid #272222;
 
   position: absolute;
   left: 0;
-  width: 240px;
+  width: 290px;
   height: 100%;
   min-height: 800px;
   color: #fff;
@@ -70,7 +71,7 @@ p {
 }
 .sidebar-wrapper .profile-container {
   padding: 30px;
-  
+
 
   text-align: center;
   color: #fff;
@@ -109,18 +110,26 @@ p {
   padding: 30px;
 }
 .sidebar-wrapper .container-block-title {
-  text-transform: uppercase;
-  font-size: 22px;
+
+  font-size: 30px;
   font-weight: 800;
   margin-top: 0;
   margin-bottom: 15px;
   color: #fff;
 }
 .sidebar-wrapper .degree {
-  font-size: 18px;
+  font-size: 22px;
   font-weight: 800;
-  margin-top: 0;
+  margin-top: 10px;
   margin-bottom: 5px;
+  color: #820419
+}
+.sidebar-wrapper .degree2 {
+  font-size: 21px;
+  font-weight: 800;
+  margin-top: 25px;
+  margin-bottom: 5px;
+  color: #820419
 }
 .sidebar-wrapper .education-container .item {
   margin-bottom: 15px;
@@ -132,7 +141,8 @@ p {
   color: #fff;
   font-weight: 500;
   margin-bottom: 0px;
-  margin-top: 0;
+  margin-top: 5px;
+  font-size: 20px;
 }
 .sidebar-wrapper .education-container .time {
   color: #fff;
@@ -163,14 +173,14 @@ p {
 .main-wrapper {
   background: #fff;
   padding: 60px;
-  padding-left: 300px;
-  border: 2px solid #423537;
+  padding-left: 330px;
+  border: 2px solid #252121;
 }
 .main-wrapper .section-title {
-  text-transform: uppercase;
-  font-size: 20px;
+
+  font-size: 22px;
   font-weight: 500;
-  color: #423537;
+  color: #252121;
   position: relative;
   margin-top: 0;
   margin-bottom: 20px;
@@ -231,7 +241,8 @@ p {
   overflow: hidden;
 }
 .skillset .level-title {
-  font-size: 20px;
+  font-size: 18px;
+  color: #820419;
   margin-top: 0;
   margin-bottom: 12px;
 }
@@ -301,4 +312,24 @@ used for profile image
   margin-bottom: 15px;
   border: 0px solid #423537;
   border-radius: 100%;
+}
+.logo {
+
+  max-width: 150px;
+  margin-bottom: 0px;
+  margin-top: 10px;
+  border: 1px solid #272222;
+
+
+}
+
+.telephon {
+
+  max-width: 130px;
+  margin-bottom: 0px;
+  margin-top: 0px;
+  border: 1px solid #272222;
+  float: center;
+
+
 }
