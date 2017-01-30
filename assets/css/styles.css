@@ -271,7 +271,7 @@ p {
   overflow: hidden;
 }
 .skillset .level-title {
-  font-size: 18px;
+  font-size: 22px;
   color: #820419;
   margin-top: 0;
   margin-bottom: 12px;
@@ -345,11 +345,13 @@ used for profile image
 }
 .logo {
 
-  max-width: 150px;
+  max-width: 100%;
+  max-height: 150px;
   margin-bottom: 0px;
   margin-top: 10px;
   border: 1px solid #272222;
-  margin-left: 45px;
+  
+
 
 
 
@@ -382,4 +384,12 @@ used for profile image
   color: #423537;
 
 
+}
+
+.nowrap {
+  white-space: nowrap;
+  font-size: 22px;
+  color: #820419;
+  margin-top: 0;
+  margin-bottom: 12px;
 }
