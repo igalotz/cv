@@ -338,7 +338,8 @@ p {
 used for profile image
 */
 .profile-img {
-  max-width: 200px;
+  max-width: 250px;
+  max-height: 350px;
   margin-bottom: 15px;
 }
 
