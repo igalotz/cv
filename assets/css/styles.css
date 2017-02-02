@@ -54,7 +54,7 @@ p {
   box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
 }
 .sidebar-wrapper {
-  background: #272222;
+  background: #fff;
 
   border: 2px solid #272222;
 
@@ -63,11 +63,11 @@ p {
   width: 290px;
   height: 100%;
   min-height: 800px;
-  color: #fff;
+  color: #272222;
 }
 
 .sidebar-wrapper a {
-  color: #fff;
+  color: #272222;
   font-weight: 800;
 }
 .sidebar-wrapper .profile-container {
@@ -75,7 +75,7 @@ p {
 
 
   text-align: center;
-  color: #fff;
+  color: #272222;
 }
 .sidebar-wrapper .name {
   font-size: 32px;
@@ -84,7 +84,7 @@ p {
   margin-bottom: 10px;
 }
 .sidebar-wrapper .tagline {
-  color:#fff;
+  color:#272222;
   font-size: 16px;
   font-weight: 400;
   margin-top: 0;
@@ -116,7 +116,7 @@ p {
   font-weight: 800;
   margin-top: 0;
   margin-bottom: 15px;
-  color: #fff;
+  color: #272222;
 }
 
 .sidebar-wrapper .container-block-title-polish {
@@ -125,7 +125,7 @@ p {
   font-weight: 800;
   margin-top: 0;
   margin-bottom: 20px;
-  color: #fff;
+  color: #272222;
 }
 .sidebar-wrapper .degree {
   font-size: 22px;
@@ -180,7 +180,7 @@ p {
   font-size: 15px;
 }
 .sidebar-wrapper .languages-container .lang-desc {
-  color: #fff;
+  color: #252121;
 }
 .sidebar-wrapper .languages-list {
   margin-bottom: 0;
@@ -260,6 +260,7 @@ p {
   right: 0;
   top: 0;
   color: #423537;
+  margin-bottom: 5px;
 }
 .main-wrapper .company {
   margin-bottom: 10px;
@@ -285,9 +286,9 @@ p {
   background: #820419;
 }
 .footer {
-  margin-left: 200px;
-  margin-right: 200px;
-  padding-top: 30px;
+  margin-left: 100px;
+  margin-right: 100px;
+  padding-top: 5px;
 }
 .footer .copyright {
   line-height: 1.6;
@@ -310,6 +311,7 @@ p {
     position: static;
     display: block;
     margin-top: 5px;
+    margin-bottom: 5px;
   }
   .main-wrapper .upper-row {
     margin-bottom: 0;
@@ -339,8 +341,8 @@ p {
 used for profile image
 */
 .profile-img {
-  max-width: 100%;
-  max-height: 100%;
+  max-width: 200px;
+  max-height: 250px;
   margin-bottom: 15px;
 }
 
