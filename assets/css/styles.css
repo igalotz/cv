@@ -412,3 +412,11 @@ used for profile image
   color: #252121;
 
 }
+.klauzula{
+  font-size: 12px;
+  position: absolute;
+  bottom: -10px;
+  text-align: center;
+  background-color: #820419;
+  color: #fff;
+}
